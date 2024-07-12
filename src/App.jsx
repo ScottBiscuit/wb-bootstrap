@@ -1,6 +1,8 @@
+import { Carousel } from 'react-bootstrap';
 import Hero from './components/Hero.jsx';
 import MainNav from './components/MainNav.jsx';
 import Values from './components/Values.jsx';
+import SmoothiePics from './components/SmoothiePics.jsx'
 
 export default function App() {
   return (
@@ -44,6 +46,8 @@ export default function App() {
             action: 'Join Us',
           },
         ]}
+      />
+      <SmoothiePics
       />
     </>
   );
